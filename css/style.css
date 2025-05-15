@@ -154,6 +154,10 @@ h4{
     border: 2px solid #FA793C;
     border-radius: 8px;
     cursor: pointer;
+    transition: 0.25s;
+}
+.section3_cards:hover{
+    transform: scale(1.05);
 }
 .section3_cards_img{
     border-radius: 8px 8px 0 0;
@@ -183,6 +187,9 @@ h5{
 .fa-cart-plus{
     font-size: 40px;
     color: #FA793C;
+}
+.fa-cart-plus:hover{
+    color:#FFFFFF;
 }
 /* footer */
 footer{
