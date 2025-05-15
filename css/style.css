@@ -1,0 +1,224 @@
+.container{
+    width: min(100%, 1440px);
+    margin: auto;
+}
+/* header */
+header{
+    display: flex;
+    padding: 6px 82px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FA793C;
+}
+.header_nav{
+    display: flex;
+    column-gap: 40px;
+}
+.header_ul{
+    display: flex;
+    column-gap: 32px;
+}
+.header_nav_a{
+    font-family: ABeeZee;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+.user_icon{
+    color: #FFFFFF;
+    font-size: 24px;
+}
+.user_icon:hover{
+    cursor: pointer;
+}
+/* section1 */
+.section1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 550px;
+    background-image: url(../images/cover1.png);
+    justify-content: center;
+    align-items: center;
+    row-gap: 32px;
+    object-fit: cover;
+    background-position: center;
+}
+h2{
+    font-family: Kanit;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 75px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #FFFFFF;
+}
+.section1_button{
+    background-color: #FA793C;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    font-family: Kanit;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 16px 40px;
+    cursor: pointer;
+}
+/* section2 */
+.scetion2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 34px;
+    background-color: #FA793C;
+    padding: 72px ;
+}
+h3{
+    font-family: Kanit;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #FFFFFF;
+}
+.section2_cards{
+    display: flex;
+    column-gap: 20px;
+    overflow: hidden;
+}
+.section2_articles{
+    position: relative;
+    cursor: pointer;
+}
+.section2_article_txt_div{
+    display: flex;
+    column-gap: 16px;
+    position: absolute;
+    bottom: 16px;
+    left: 16px;
+}
+.section2_article_text{
+    font-family: Kanit;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+.fa-arrow-right{
+    color: #FFFFFF;
+    font-size: 32px;
+}
+/* section3 */
+.section3{
+    display: flex;
+    flex-direction: column;
+    padding: 72px;
+    justify-content: center;
+    row-gap: 34px;
+    background-color: #000000;
+}
+h4{
+    font-family: Kanit;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #FA793C;
+}
+.section3_CardSection{
+    display: flex;
+    align-content: stretch;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 40px;
+}
+.section3_cards{
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #FA793C;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.section3_cards_img{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+h5{
+    margin-block: 16px 8px;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #B53B1B;
+}
+.section3_card_txt_div{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.tour_price{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    color: #B53B1B;
+}
+.fa-cart-plus{
+    font-size: 40px;
+    color: #FA793C;
+}
+/* footer */
+footer{
+    display: flex;
+    padding: 32px 82px;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #FA793C;
+}
+.footer_left_section{
+    display: flex;
+    flex-direction: column;
+    row-gap: 42px;
+}
+.footer_ul{
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+.footer_a{
+    font-family: Rubik;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+.social_icon_ul{
+    display: flex;
+    column-gap: 24px;
+}
+.footer_right_ul{
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+.footer_right_li{
+    display: flex;
+    column-gap: 16px;
+    align-items: center;
+}
+.footer_social_icon{
+    font-size: 18px;
+    color: #FFFFFF;
+}
