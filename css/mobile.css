@@ -1,0 +1,12 @@
+@media (max-width: 560px) {
+    .section3{
+        padding: 32px 14px;
+    }
+    .section3_CardSection{
+        row-gap: 20px;
+    }
+    .section3_cards {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+}

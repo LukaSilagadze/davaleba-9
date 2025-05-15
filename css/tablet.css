@@ -1,0 +1,34 @@
+@media (max-width: 834px){
+    header{
+        padding: 6px 46px;
+    }
+}
+@media (max-width: 710px) {
+    /* header */
+    .fa-bars{
+        display: block;
+    }
+    .header_ul{
+        display: none;
+    }
+    /* footer */
+    footer{
+        flex-direction: column;
+        align-items: center;
+        row-gap: 48px;
+    }
+    .footer_left_section{
+        align-items: center;
+    }
+    .footer_ul{
+        align-items: center;
+    }
+    .footer_social_a{
+        display: none;
+    }
+    .footer_right_ul{
+        display: flex;
+        flex-direction: row;
+        column-gap: 24px;
+    }
+}
