@@ -2,6 +2,9 @@
     header{
         padding: 6px 46px;
     }
+    .section2{
+        padding-left: 46px;
+    }
 }
 @media (max-width: 710px) {
     /* header */
@@ -10,6 +13,10 @@
     }
     .header_ul{
         display: none;
+    }
+    /* section */
+    .section2{
+        padding-left: 38px;
     }
     /* footer */
     footer{

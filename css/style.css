@@ -75,13 +75,14 @@ h2{
     cursor: pointer;
 }
 /* section2 */
-.scetion2{
+.section2{
     display: flex;
     flex-direction: column;
     justify-content: center;
     row-gap: 34px;
     background-color: #FA793C;
-    padding: 72px ;
+    padding: 72px 0 72px 72px;
+    padding-left: 72px;
 }
 h3{
     font-family: Kanit;
@@ -95,10 +96,11 @@ h3{
 .section2_cards{
     display: flex;
     column-gap: 20px;
-    overflow: hidden;
+    overflow: auto;
 }
 .section2_articles{
     position: relative;
+    flex: 0 0 min(100%, 300px);
     cursor: pointer;
 }
 .section2_article_txt_div{
