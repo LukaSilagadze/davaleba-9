@@ -1,13 +1,17 @@
 @media (max-width: 560px) {
+    /* header */
     header{
         padding: 6px 14px;
     }
+    /* section 1 */
     h2{
         font-size: 32px;
     }
+    /* section 2 */
     .section2{
         padding-left: 14px;
     }
+    /* section 3 */
     .section3{
         padding: 32px 14px;
     }

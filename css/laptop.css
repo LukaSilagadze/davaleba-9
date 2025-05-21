@@ -1,7 +1,9 @@
 @media (max-width: 1300px){
+    /* header */
     header{
         padding: 6px 57px;
     }
+    /* section */
     .section2{
         padding-left: 57px;
     }

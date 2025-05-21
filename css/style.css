@@ -15,12 +15,12 @@ header{
     font-size: 24px;
     color: #FFFFFF;
 }
-.header_box{
+.logo_box{
     display: flex;
     align-items: center;
     column-gap: 14px;
 }
-.header_title{
+.logo_title{
     font-family: Pridi;
     font-weight: 400;
     font-size: 18px;

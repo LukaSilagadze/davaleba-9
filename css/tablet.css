@@ -1,7 +1,9 @@
 @media (max-width: 834px){
+    /* header */
     header{
         padding: 6px 46px;
     }
+    /* section 2 */
     .section2{
         padding-left: 46px;
     }
@@ -14,7 +16,7 @@
     .header_ul{
         display: none;
     }
-    /* section */
+    /* section 2 */
     .section2{
         padding-left: 38px;
     }
