@@ -15,6 +15,19 @@ header{
     font-size: 24px;
     color: #FFFFFF;
 }
+.header_box{
+    display: flex;
+    align-items: center;
+    column-gap: 14px;
+}
+.header_title{
+    font-family: Pridi;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
 .header_nav{
     display: flex;
     column-gap: 40px;
